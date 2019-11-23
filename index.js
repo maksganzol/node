@@ -4,7 +4,7 @@ var seq_service = require("./sequence_service.js")
 var stat_service = require("./statistic_service")
 
 console.log("The request process may take several minutes, please wait... ");
-random.getDigits(95455, displayData);
+random.getDigits(1000000, displayData);
 
 function displayData(digits) {
 
